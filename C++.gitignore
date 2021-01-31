@@ -1,10 +1,6 @@
 # Prerequisites
 *.d
 
-cmake-build-debug/**
-cmake-build-debug-mingw/**
-.idea/**
-
 # Compiled Object files
 *.slo
 *.lo
@@ -34,3 +30,7 @@ cmake-build-debug-mingw/**
 *.exe
 *.out
 *.app
+
+# 忽略当前项目编译文件
+/cmake-build-debug/
+/cmake-build-debug-mingw/
