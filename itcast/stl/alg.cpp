@@ -46,6 +46,14 @@ void test_alg_foreach() {
 
     for_each(v.begin(), v.end(), print_v<int>);
     cout << endl;
+
+    // lambda 遍历
+    cout << "lambda 遍历" << endl;
+    for_each(v.begin(), v.end(), [](int v) {
+        cout << v << " ";
+    });
+    cout << endl;
+
 }
 
 /*
